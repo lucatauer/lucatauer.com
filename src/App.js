@@ -8,7 +8,7 @@ import HelloThere from "./pages/HelloThere";
 import DidSoftwareEatTheWorld from "./pages/DidSoftwareEatTheWorld";
 export default function App() {
     return (
-        <Router basemname={`/${process.env.PUBLIC_URL}`}>
+        <Router basename={`/${process.env.PUBLIC_URL}`}>
             <div>
                 <Routes>
                     <Route path="/" element={<Home />} />
