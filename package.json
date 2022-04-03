@@ -2,7 +2,7 @@
   "name": "test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lucatauer.com",
+  "homepage": "lucatauer.com",
   "dependencies": {
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
