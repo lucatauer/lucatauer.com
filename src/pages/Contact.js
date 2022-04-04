@@ -1,4 +1,5 @@
 import React from "react";
+import '../input.css';
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 
