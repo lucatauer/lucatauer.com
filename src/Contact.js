@@ -1,7 +1,7 @@
 import React from "react";
 import './input.css';
-import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useState } from 'react'
+import { Dialog, Transition } from '@headlessui/react';
+import { Fragment, useState } from 'react';
 
 export default function Contact() {
   let [isOpen, setIsOpen] = useState(false)
@@ -66,7 +66,7 @@ export default function Contact() {
                 >
                   Get in touch with me!
                 </Dialog.Title>
-                  <img className="pt-1 -ml-1 pointer-events-none" src="images/Contact.png" alt="Nothing to see here @spambots" /> 
+                  <img className="pt-1 -ml-1 pointer-events-none" src="images/contact.png" alt="Nothing to see here @spambots" /> 
               </div>
             </Transition.Child>
           </div>
