@@ -50,7 +50,7 @@ function Blog() {
                 <h1 className="bg-violet-700 text-white rounded-md inline-block px-2 ml-3">Software</h1>
               </div>
               <h2 className="ml-4 smartphone:mt-3 tablet:mt-0 font-semibold text-zinc-600 text-2xl ">Did Software eat the world?</h2>
-              <p className="ml-4 mb-3 text-zinc-600">April 2, 2022 • 6 min read</p>
+              <p className="ml-4 mb-3 text-zinc-600">April 3, 2022 • 6 min read</p>
             </div>
           </a>
         </div>
