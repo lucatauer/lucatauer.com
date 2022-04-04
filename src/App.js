@@ -9,7 +9,6 @@ import DidSoftwareEatTheWorld from "./pages/DidSoftwareEatTheWorld";
 export default function App() {
     return (
         <Router basename={`/${process.env.PUBLIC_URL}`}>
-            <div>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/projects" element={<Projects />} />
@@ -17,7 +16,6 @@ export default function App() {
                     <Route path="/hello-there" element={<HelloThere />} />
                     <Route path="/did-software-eat-the-world" element={<DidSoftwareEatTheWorld />} />
                 </Routes>
-            </div>
         </Router>
   );
 }
