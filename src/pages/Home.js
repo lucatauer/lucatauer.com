@@ -1,6 +1,6 @@
 import React from "react";
 import '../input.css';
-import Contact from './Contact';
+import Contact from '../Contact';
 
 function Home() {
   return (

@@ -5,7 +5,7 @@ module.exports = {
             './src/pages/Blog.js',
             './src/pages/HelloThere.js',
             './src/pages/DidSoftwareEatTheWorld.js',
-            './src/pages/Contact.js',
+            './src/Contact.js',
 ],
   theme: {
     extend: {
