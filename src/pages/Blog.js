@@ -5,7 +5,7 @@ import Contact from '../Contact';
 function Blog() {
   return (
     <div className="smartphone:h-full tablet:h-screen flex flex-col justify-between">
-      <nav className="bg-white border-t-4 border-violet-600 flex flex-row justify-between h-16 shadow-md smartphone:px-1 tablet:px-[28rem] 3xl:px-[40rem]">
+      <nav className="bg-white border-t-4 border-violet-600 flex flex-row justify-between h-16 shadow-md smartphone:px-1 tablet:px-[14rem] 2xl:px-[28rem] 3xl:px-[40rem]">
         <div className="smartphone:place-content-center smartphone:pb-3 smartphone:pl-4 tablet:pl-0 pt-3 text-3xl font-semibold text-zinc-600">
           <h1>Luca Tauer</h1>
         </div>
@@ -27,7 +27,7 @@ function Blog() {
           <Contact />
         </div>
       </nav>
-      <div className="bg-white smartphone:mb-10 tablet:mb-0 smartphone:mt-16 tablet:mt-0 smartphone:mx-5 tablet:mx-[28rem] 3xl:mx-[40rem]">
+      <div className="bg-white smartphone:mb-10 tablet:mb-0 smartphone:mt-16 tablet:mt-0 smartphone:mx-5 tablet:px-[14rem] 2xl:px-[28rem] 3xl:mx-[40rem]">
         <h1 className="text-violet-700 text-2xl font-semibold">Latest Posts</h1>
         <p className="smartphone:text-lg tablet:text-xl text-zinc-600">Here you can find my write-ups about finance, tech, privacy and security, entertainment and more.</p>
         <div className="mt-10 flex justify-between smartphone:flex-col tablet:flex-row gap-20">
@@ -55,7 +55,7 @@ function Blog() {
           </a>
         </div>
       </div>
-      <footer className="text-zinc-400 smartphone:mb-5 tablet:mb-10 smartphone:mx-5 tablet:mx-[28rem] smartphone:mt-10 tablet:mt-0 flex smartphone:flex-col tablet:flex-row justify-between 3xl:mx-[40rem]">
+      <footer className="text-zinc-400 smartphone:mb-5 tablet:mb-10 smartphone:mx-5 tablet:px-[14rem] 2xl:px-[28rem] smartphone:mt-10 tablet:mt-0 flex smartphone:flex-col tablet:flex-row justify-between 3xl:mx-[40rem]">
         <div className="flex flex-row">
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/lucavontauer"><img className="w-9 rounded-lg" src="images/socials/twitter.png" alt="Twitter" /></a>
           <a rel="noopener noreferrer" href="discord://discordapp.com/users/293468376506957824"><img className="w-9 smartphone:ml-2 tablet:ml-4 rounded-lg" src="images/socials/discord.png" alt="Discord" /></a>         
