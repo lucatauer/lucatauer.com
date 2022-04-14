@@ -5,7 +5,7 @@ import Contact from '../Contact';
 function Home() {
   return (
     <div className="smartphone:h-full tablet:h-screen flex flex-col justify-between">
-      <nav className="bg-white border-t-4 border-violet-600 flex flex-row justify-between h-16 shadow-md smartphone:px-1 tablet:px-[14rem] 2xl:px-[28rem] 3xl:px-[40rem]">
+      <nav className="bg-white border-t-4 border-violet-600 flex flex-row justify-between h-16 shadow-md smartphone:px-1 tablet:px-[14rem] 3xl:px-[28rem] 4xl:px-[40rem]">
         <div className="smartphone:place-content-center smartphone:pb-3 smartphone:pl-4 tablet:pl-0 pt-3 text-3xl font-semibold text-zinc-600">
           <h1>Luca Tauer</h1>
         </div>
@@ -27,7 +27,7 @@ function Home() {
           <Contact />
         </div>
       </nav>
-      <div className="bg-white smartphone:mx-5 tablet:px-[14rem] 2xl:px-[28rem] smartphone:mt-16 tablet:mt-10 smartphone:flex-col flex tablet:flex-row justify-between 3xl:mx-[40rem]">
+      <div className="bg-white smartphone:mx-5 tablet:px-[14rem] 3xl:px-[28rem] 4xl:px-[40rem] smartphone:mt-16 tablet:mt-10 smartphone:flex-col flex tablet:flex-row justify-between">
         <div className="smartphone:w-full tablet:w-1/2">
           <h2 className="text-3xl font-semibold text-zinc-600 3xl:text-4xl">Global citizen, investor, <span className="text-violet-700">founder</span>.</h2>
           <img className="tablet:hidden block mt-10 pointer-events-none" src="images/luca.png" alt="Me" />
@@ -40,7 +40,7 @@ function Home() {
           <img className="w-[26rem] block ml-auto smartphone:hidden tablet:inline tablet:-mr-8 pointer-events-none 3xl:w-[29rem]" src="images/luca.png" alt="Me" />
         </div>
       </div>
-      <footer className="text-zinc-400 smartphone:mb-5 tablet:mb-10 smartphone:mx-5 tablet:px-[14rem] 2xl:px-[28rem] smartphone:mt-10 tablet:mt-0 flex smartphone:flex-col tablet:flex-row justify-between 3xl:mx-[40rem]">
+      <footer className="text-zinc-400 smartphone:mb-5 tablet:mb-10 smartphone:mx-5 tablet:px-[14rem] 3xl:px-[28rem] 4xl:px-[40rem] smartphone:mt-10 tablet:mt-0 flex smartphone:flex-col tablet:flex-row justify-between">
         <div className="flex flex-row">
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/lucavontauer"><img className="w-9 rounded-lg" src="images/socials/twitter.png" alt="Twitter" /></a>
           <a rel="noopener noreferrer" href="discord://discordapp.com/users/293468376506957824"><img className="w-9 smartphone:ml-2 tablet:ml-4 rounded-lg" src="images/socials/discord.png" alt="Discord" /></a>         
