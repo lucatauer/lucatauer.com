@@ -27,14 +27,14 @@ function Projects() {
           <Contact />
         </div>
       </nav>
-      <div className="bg-white smartphone:mt-16 tablet:mt-0 smartphone:mx-5 tablet:px-[14rem] 3xl:px-[28rem] 4xl:px-[40rem]">
+      <div className="bg-white smartphone:mt-16 tablet:mt-0 smartphone:mx-5 tablet:mx-0 tablet:px-[14rem] 3xl:px-[28rem] 4xl:px-[40rem]">
         <h1 className="text-violet-700 text-2xl font-semibold">General Meeting</h1>
         <p className="smartphone:text-lg tablet:text-xl text-zinc-600">The real investment revolution made possible by tokenization and transparency.</p>
         <div className="mt-5">
           <img className="rounded-3xl pointer-events-none smartphone:aspect-square tablet:aspect-[2/1] w-full object-cover" src="images/generalmeeting.png" alt="General Meeting" />
         </div>
       </div>
-      <footer className="text-zinc-400 smartphone:mb-5 tablet:mb-10 smartphone:mx-5 tablet:px-[14rem] 3xl:px-[28rem] 4xl:px-[40rem] smartphone:mt-20 tablet:mt-0 flex smartphone:flex-col tablet:flex-row justify-between">
+      <footer className="text-zinc-400 smartphone:mb-5 tablet:mb-10 smartphone:mx-5 tablet:mx-0 tablet:px-[14rem] 3xl:px-[28rem] 4xl:px-[40rem] smartphone:mt-20 tablet:mt-0 flex smartphone:flex-col tablet:flex-row justify-between">
         <div className="flex flex-row">
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/lucavontauer"><img className="w-9 rounded-lg" src="images/socials/twitter.png" alt="Twitter" /></a>
           <a rel="noopener noreferrer" href="discord://discordapp.com/users/293468376506957824"><img className="w-9 smartphone:ml-2 tablet:ml-4 rounded-lg" src="images/socials/discord.png" alt="Discord" /></a>         
