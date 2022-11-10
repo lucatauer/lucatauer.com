@@ -46,7 +46,6 @@ function Home() {
           <a rel="noopener noreferrer" href="discord://discordapp.com/users/293468376506957824"><img className="w-9 smartphone:ml-2 tablet:ml-4 rounded-lg" src="images/socials/discord.png" alt="Discord" /></a>         
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luca-tauer-789522225/"><img className="w-9 smartphone:ml-2 tablet:ml-4 rounded-lg" src="images/socials/linkedin.png" alt="Linkedin" /></a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/lucatauer"><img className="w-9 smartphone:ml-2 tablet:ml-4 rounded-lg" src="images/socials/github.png" alt="Github" /></a>
-          <a target="_blank" rel="noopener noreferrer" href="https://app.parqet.com/p/61da6a92d332da787524747b"><img className="w-9 smartphone:ml-2 tablet:ml-4 rounded-lg" src="images/socials/parqet.png" alt="Parqet" /></a>
         </div>    
         <h1 className="smartphone:text-sm tablet:text-base smartphone:mt-5 mb-0 block tablet:mt-auto">Copyright © 2022 Luca Tauer. All  Rights Reserved.</h1>
       </footer>
