@@ -29,7 +29,7 @@ function Projects() {
       </nav>
       <div className="bg-white smartphone:mt-16 tablet:mt-0 smartphone:mx-5 tablet:mx-0 tablet:px-[14rem] 3xl:px-[28rem] 4xl:px-[40rem]">
         <h1 className="text-violet-700 text-2xl font-semibold">General Meeting</h1>
-        <p className="smartphone:text-lg tablet:text-xl text-zinc-600">The real investment revolution made possible by tokenization and transparency.</p>
+        <p className="smartphone:text-lg tablet:text-xl text-zinc-600">The real investment revolution made possible by tokenization and transparency. New information soon.</p>
         <div className="mt-5">
           <img className="rounded-3xl pointer-events-none smartphone:aspect-square tablet:aspect-[2/1] w-full object-cover" src="images/generalmeeting.png" alt="General Meeting" />
         </div>
