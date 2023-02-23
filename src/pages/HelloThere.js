@@ -50,7 +50,7 @@ function HelloThere() {
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luca-tauer-789522225/"><img className="w-9 smartphone:ml-2 tablet:ml-4 rounded-lg" src="images/socials/linkedin.png" alt="Linkedin" /></a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/lucatauer"><img className="w-9 smartphone:ml-2 tablet:ml-4 rounded-lg" src="images/socials/github.png" alt="Github" /></a>
         </div>   
-        <h1 className="smartphone:text-sm tablet:text-base smartphone:mt-5 tablet:mb-0 block tablet:mt-auto">Copyright © 2022 Luca Tauer. All  Rights Reserved.</h1>
+        <h1 className="smartphone:text-sm tablet:text-base smartphone:mt-5 tablet:mb-0 block tablet:mt-auto">Copyright © 2023 Luca Tauer. All  Rights Reserved.</h1>
       </footer>
     </div>
   );
